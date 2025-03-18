@@ -37,7 +37,7 @@ function Category() {
     <div className="category-page-container">
       <Navbar />
       <ToastContainer /> {/* This ensures toasts are displayed */}
-      <a href="#" className="category-page-back-link">
+      <a href="/" className="category-page-back-link">
         &larr; Back to listings
       </a>
       <div className="row">

@@ -317,14 +317,14 @@ function Details() {
 
           <div className="d-flex justify-content-between mt-4">
             <button className="btn btn-outline-primary" onClick={()=>navigate("/addproduct/media")}>
-              <img src={arrowLeft} /> Previous
+              <img alt="Company Logo" src={arrowLeft} /> Previous
             </button>
             <div>
               <button className="btn btn-outline-secondary me-2">
-                Save as draft <img src={draftIcon} />
+                Save as draft <img  alt="Company Logo" src={draftIcon} />
               </button>
               <Button className="btn btn-theme" type="submit">
-                Publish <img src={arrowRight} />
+                Publish <img alt="Company Logo" src={arrowRight} />
               </Button>
             </div>
           </div>

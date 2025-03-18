@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../css/style.css";
-import { FaHeart, FaEllipsisV, FaPlus, FaBell, FaUser } from "react-icons/fa";
+import { FaHeart,  FaPlus, FaBell, FaUser } from "react-icons/fa";
 import logo from "../../images/logo.png";
 import { useNavigate } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function Navbar({ activeTab }) {
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container d-flex align-items-center">
         {/* Logo Section (Left) */}
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" className="logo" />
         </a>
 
@@ -38,7 +38,7 @@ function Navbar({ activeTab }) {
                 onClick={() => handleClick(menu)}
               >
                 {active === menu && <span className="dot"></span>}
-                <a href="#" className="ms-2">{menu}</a>
+                <a href="/" className="ms-2">{menu}</a>
               </li>
             ))}
           </ul>

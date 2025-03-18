@@ -3,11 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/style.css";
 import mobileimg from "../../images/laptop.png";
 import {
-  FaHeart,
-  FaEllipsisV,
-  FaPlus,
-  FaBell,
-  FaUser,
+
   FaSearch,
   FaSort,
   FaFilter,

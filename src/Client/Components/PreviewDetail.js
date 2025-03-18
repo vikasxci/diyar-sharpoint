@@ -58,7 +58,7 @@ function PreviewDetail() {
             <p className="text-muted">By <strong>Ahmed Hammad</strong></p>
             <p className="text-muted">
               <FaMapMarkerAlt /> Al Asimah, Bneid Al Qar, Block 1 &nbsp;
-              <a href="#" className="text-decoration-none">Show on map</a>
+              <a href="/" className="text-decoration-none">Show on map</a>
             </p>
             <div className="d-flex gap-2">
               <button className="btn btn-outline-primary">
@@ -73,7 +73,7 @@ function PreviewDetail() {
               Product description goes here Product description goes here Product description goes here.
             </p>
             <p className="text-primary">
-              <a href="#" className="text-decoration-none">Report an issue with this listing</a>
+              <a href="/" className="text-decoration-none">Report an issue with this listing</a>
             </p>
             <h5 className="fw-bold">Share with a colleague</h5>
             <div className="d-flex gap-2 mt-2">

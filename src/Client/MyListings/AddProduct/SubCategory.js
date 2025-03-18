@@ -36,7 +36,7 @@ function SubCategory() {
     <div className="category-page-container">
       <Navbar />
       <ToastContainer /> {/* To show toast notifications */}
-      <a href="#" className="category-page-back-link">
+      <a href="/" className="category-page-back-link">
         &larr; Back to listings
       </a>
       <div className="row">
@@ -79,7 +79,7 @@ function SubCategory() {
                   selectedCategory === category.id ? "selected-icon" : ""
                 }`}
               >
-                <img src={mobile} />
+                <img alt="Company Logo" src={mobile} />
               </div>
               <p style={{ margin: 0, flex: 1 }}>{category.name}</p>
               <input 
