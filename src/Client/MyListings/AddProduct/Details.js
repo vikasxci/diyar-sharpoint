@@ -87,13 +87,12 @@ const countryOptions = [
 
 function Details() {
   const [hideIdentity, setHideIdentity] = useState(false);
-  const [phoneCode, setPhoneCode] = useState("+965");
-  const [whatsappCode, setWhatsappCode] = useState("+965");
+ 
   const navigate = useNavigate();
   const {
     register,
     handleSubmit,
-    setValue,
+ 
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),

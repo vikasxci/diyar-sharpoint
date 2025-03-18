@@ -27,16 +27,7 @@ function CategoryList() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const navigate = useNavigate();
 
-  const handleNext = () => {
-    if (!selectedCategory) {
-      toast.error("Please select a category before proceeding!", {
-        position: "top-right",
-        autoClose: 3000,
-      });
-      return;
-    }
-    navigate("/addproduct/subcategory");
-  };
+ 
 
   return (
     <div className="category-page-container">
