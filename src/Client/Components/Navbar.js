@@ -38,7 +38,12 @@ function Navbar({ activeTab }) {
                 onClick={() => handleClick(menu)}
               >
                 {active === menu && <span className="dot"></span>}
-                <a href="/" className="ms-2">{menu}</a>
+                <span 
+  className="ms-2 cursor-pointer hover:text-blue-500 transition duration-300" 
+  // onClick={() => console.log('Clicked!')}
+>
+  {menu}
+</span>
               </li>
             ))}
           </ul>

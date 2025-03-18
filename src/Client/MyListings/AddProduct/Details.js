@@ -87,7 +87,8 @@ const countryOptions = [
 
 function Details() {
   const [hideIdentity, setHideIdentity] = useState(false);
- 
+  const [phoneCode, setPhoneCode] = useState("+965");
+  const [whatsappCode, setWhatsappCode] = useState("+965");
   const navigate = useNavigate();
   const {
     register,
@@ -102,6 +103,8 @@ function Details() {
     console.log("Form Data:", data);
     toast.success("Form Submitted Successfully!");
   };
+  console.log(phoneCode)
+  console.log(whatsappCode)
 
   return (
     <>
